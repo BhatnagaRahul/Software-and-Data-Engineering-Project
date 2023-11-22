@@ -1,0 +1,46 @@
+This is the second part of RDBMS vs NoSQL databases. First part is done by Violet Deepa Sera.
+
+1. I have already established MySQL Server and MySQL Community workbench.
+2. Done downloading the 2 datasets D1 (Building Permits) and D2.
+3. Let's proceed with importing D2 as well in MySQL workbench as well. Then we will start measuring the query time in workbench itself.
+4. As you can see, there can be problems for importing some rows because of the schema they use differs at some places with ours. But still it won't defeat our purpose of query comparision for both the database.
+
+5. So, now we are done with importing D2 as well. It took time as it was pretty big nearly 10 GB in size.
+
+6. Let's move on with performing the queries on both the DBs (tables in the database).
+
+7. We are done with writing the sql queries for both the daTAbles. We have queried the respective tables using select and update queries but not doing with insert since it will disrupt the existing database and will grow its size even more.
+We already are dealing with 10 GBs D2 and 0.5 GB D1 datasets. Still will see if we can do that.
+
+8. Let's proceed with execution on BuildingPermit i.e., D1 dataset. 
+
+9. We can see the time difference in seconds for the respective queries for 3000 and 5000 and afterwards it will be same since we are having only nearly 4500 rows only. 
+
+10. Looks like we have only 3335 rows at max with street_number > 1000.
+
+5.1.2 done.
+
+11. Now let's proceed with the update part. 
+
+So now we are done with 5.2 Update section as well for Building Permit D1 dataset.
+
+We will be looking at Insert command at later stage if possible since in research paper, there isn't given enough details regarding the same.
+
+So, now we are done with Select and Update queries on D1 Building Permits dataset on MySQL Server and Workbench and noted there respective query execution time.
+
+
+Let's proceed with D2 dataset i.e., measurement dataset of size nearly 10 GB. It's quite big :}
+
+So, we are done with 5.1.1 and seen the respective select queries execution time at max there are 48501 rows so we can see till that.
+
+Let's move on to next. 5.1.2
+
+We are not seeing for more than 18947 see at max that's the output.
+
+Now, let's quickly move on to update section.
+
+So, now we have seen query execution time for D2 dataset as well for Select and Update for different scale factors and noted the values.
+
+We are now done with the project's this part 2. I have worked with both the datasets D1 and D2 and showcased all the relevan results that were needs to be implemented as per paper.
+
+tHANK yOU very much : ).
